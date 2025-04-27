@@ -232,8 +232,8 @@
     
         // Слайдер
         const slider = document.querySelector('.slider_tovar');
-        slider.innerHTML = images.slice(0, 3).map(img =>
-          `<div class="slider_boxik"><img src="${img}" /></div>`
+        slider.innerHTML = images.map(img =>
+        `<div class="slider_boxik"><img src="${img}" /></div>`
         ).join('');
     
         if (typeof window.initSlider === 'function') {
