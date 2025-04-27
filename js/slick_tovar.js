@@ -20,16 +20,4 @@ window.initSlider = function () {
     dots: true,  
   });
 };
-export default function ProductSlider({ images }) {
-  return (
-    <div className="slider_tovar">
-      <Slider {...settings}>
-        {images.map((imgUrl, idx) => (
-          <div className="slider_boxik" key={idx}>
-            <img src={imgUrl} alt={`Фото ${idx + 1}`} />
-          </div>
-        ))}
-      </Slider>
-    </div>
-  );
-}
+
