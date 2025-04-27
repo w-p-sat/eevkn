@@ -18,6 +18,8 @@
     height: auto;
 } 
 .thumbnail-images {
+    gap: 3px;
+    flex-wrap: wrap;
     justify-content: center;
     display: flex;
     margin-top: 20px;
